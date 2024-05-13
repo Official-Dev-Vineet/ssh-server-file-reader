@@ -11,6 +11,15 @@ SSH File Reader is a Node.js application that allows you to securely read files 
 
 ## Installation
 To use SSH File Reader in your Node.js project, you can install it via npm:
+Set up SSH File Reader using .env file:
+
+```bash
+SSH_HOST="example.com"
+SSH_PORT="22"
+SSH_USERNAME="username"
+SSH_PASSWORD="password"
+```
+
 
 ```bash
 npm install ssh2

@@ -38,9 +38,9 @@ conn.on('ready', () => {
 }).on('error', (err) => {
   console.log('Client :: error :: ' + err);
 }).connect({
-  host: process.env.SSH,
-  port: process.env.SSHPORT,
-  username: process.env.SSHUSERNAME,
-  password: process.env.SSHPASSWORD  // Ensure you provide a password if required
+  host: process.env.SSH_HOST,
+  port: process.env.SSH_PORT,
+  username: process.env.SSH_USERNAME,
+  password: process.env.SSH_PASSWORD  // Ensure you provide a password if required
 });
 
